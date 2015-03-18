@@ -17,7 +17,8 @@ public class Promotion {
 		System.out.println("");
 		System.out.println("연간 인건비 : " + String.format("%,d",result));
 		
-		
+		// 점포 내 직원 수가 1000명을 넘어가는 경우는 없을 것이라 추정하여,
+		// 천 단위 콤마 찍기를 하지 않았습니다.
 		
 	}
 
