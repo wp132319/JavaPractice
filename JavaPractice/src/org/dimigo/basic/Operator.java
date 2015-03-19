@@ -16,12 +16,15 @@ public class Operator {
 		double p_r = p_a * p_h;
 		
 		
+		// 정보 출력
 		System.out.println("<< 도형 넓이 비교 >>");
 		System.out.println("사다리꼴 넓이 : " + s_r);
 		System.out.println("평행사변형 넓이 : " + p_r);
 		System.out.println("");
 		System.out.println("");
 		
+		
+		// 결과
 		String result = (s_r > p_r) ? "사다리꼴이 평행사변형보다 " + (s_r-p_r) + "더 큽니다." :
 									  "평행사변형이 사다리꼴보다 " + (p_r-s_r) + "더 큽니다." ;
 		
