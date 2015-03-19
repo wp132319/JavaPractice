@@ -24,7 +24,7 @@ public class Operator {
 		System.out.println("");
 		
 		
-		// 결과
+		// 결과 출력
 		String result = (s_r > p_r) ? "사다리꼴이 평행사변형보다 " + (s_r-p_r) + "더 큽니다." :
 									  "평행사변형이 사다리꼴보다 " + (p_r-s_r) + "더 큽니다." ;
 		
