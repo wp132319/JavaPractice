@@ -6,7 +6,7 @@ public class Condition {
 
 		short  carType   = 1;    // 1:고속버스, 2:경차, 3:그 외
 		String carName   = "";   // 차종
-		int    distance  = 10;   // 거리 (km)
+		int    distance  = 10;   // 거리 (단위:km)
 		int    price     = 0;    // 기본요금
 		int    plusPrice = 0;    // 할증요금
 		
