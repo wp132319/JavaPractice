@@ -4,7 +4,7 @@ public class Condition {
 
 	public static void main(String[] args) {
 
-		short  carType   = 1;    // 1:고속버스, 2:경차, 3:그 외
+		short  carType   = 1;    // 1:고속버스, 2:경차, 나머지:그 외
 		String carName   = "";   // 차종
 		int    distance  = 10;   // 거리 (km)
 		int    price     = 0;    // 기본요금
@@ -21,11 +21,10 @@ public class Condition {
 			price     = 300;
 			plusPrice = 200;
 			break;
-		case 3:
+		default:
 			carName   = "그 외";
 			price     = 600;
 			plusPrice = 200;
-			break;
 		}
 		
 		
