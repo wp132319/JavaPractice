@@ -33,7 +33,7 @@ public class Condition {
 			price += plusPrice;
 		}
 
-		System.out.println("<<고속도로 통행료 계산>>");
+		System.out.println("<< 고속도로 통행료 계산 >>");
 		System.out.println("거리 : " + distance + "km");
 		System.out.println("차종 : " + carName);
 		System.out.println("요금 : " + price);
