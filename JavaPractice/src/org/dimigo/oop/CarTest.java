@@ -54,10 +54,39 @@ public class CarTest {
 
 		
 //		######################## Car2 ########################
-
-		Car2 Car1 = new Car2("현재자동차","제네시스","검정색",225,50000000);
-		Car2 Car2 = new Car2("기아자동차","K7","흰색",246,40000000);
-		Car2 Car3 = new Car2("현대자동차","SM7","회색",200,38000000);
+//
+//		Car2 Car1 = new Car2("현재자동차","제네시스","검정색",225,50000000);
+//		Car2 Car2 = new Car2("기아자동차","K7","흰색",246,40000000);
+//		Car2 Car3 = new Car2("현대자동차","SM7","회색",200,38000000);
+//		
+//		System.out.println("<< 자동차 목록 >>");
+//
+//		System.out.println("제조사명 : " + Car1.getCompany());
+//		System.out.println("모델명 : " + Car1.getModel());
+//		System.out.println("색상 : " + Car1.getColor());
+//		System.out.println("최대속도 : " + Car1.getMaxSpeed() + "km");
+//		System.out.println("가격 : " + String.format("%,d",Car1.getPrice()) + "원");
+//		System.out.println("");
+//		
+//		System.out.println("제조사명 : " + Car2.getCompany());
+//		System.out.println("모델명 : " + Car2.getModel());
+//		System.out.println("색상 : " + Car2.getColor());
+//		System.out.println("최대속도 : " + Car2.getMaxSpeed() + "km");
+//		System.out.println("가격 : " + String.format("%,d",Car2.getPrice()) + "원");
+//		System.out.println("");
+//		
+//		System.out.println("제조사명 : " + Car3.getCompany());
+//		System.out.println("모델명 : " + Car3.getModel());
+//		System.out.println("색상 : " + Car3.getColor());
+//		System.out.println("최대속도 : " + Car3.getMaxSpeed() + "km");
+//		System.out.println("가격 : " + String.format("%,d",Car3.getPrice()) + "원");
+//		System.out.println("");
+		
+//		######################## Car3 ########################
+//
+		Car3 Car1 = new Car3("현재자동차","제네시스","검정색",225,50000000);
+		Car3 Car2 = new Car3("기아자동차","K7","흰색",246);
+		Car3 Car3 = new Car3("현대자동차","SM7","회색");
 		
 		System.out.println("<< 자동차 목록 >>");
 
