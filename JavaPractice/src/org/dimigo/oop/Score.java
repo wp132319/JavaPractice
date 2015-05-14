@@ -47,10 +47,8 @@ public class Score {
 		  .toString();
 		
 		System.out.println(sb);
-		  
-		  
-		  
 		
+		scanner.close();
 		
 	}
 
