@@ -10,21 +10,17 @@ public class MelonGenreChart {
 	public static void main(String[] args) {
 		
 		Map<String, List<Music>> map = new HashMap<>();
-		List<Music> list1 = new ArrayList<>();
-		List<Music> list2 = new ArrayList<>();
 		
+		map.put("발라드", new ArrayList<Music>());
+		map.put("댄스", new ArrayList<Music>());
 
 		System.out.println("---- << 멜론 장르별 챠트 >> ----");
 		
-		list1.add(new Music("내 첫사랑", "배리굿굿"));
-		list1.add(new Music("또 다시 사랑", "임창정"));
-		list1.add(new Music("부산에 가면", "박진영"));
-		
-		list2.add(new Music("커피", "유재환, 장예림"));
-		list2.add(new Music("다 잘될거야", "쿨"));
-		
-		map.put("발라드", list1);
-		map.put("댄스", list2);
+		map.get("발라드").add(new Music("내 첫사랑", "배리굿굿"));
+		map.get("발라드").add(new Music("또 다시 사랑", "임창정"));
+		map.get("발라드").add(new Music("부산에 가면", "박진영"));
+		map.get("댄스").add(new Music("커피", "유재환, 장예림"));
+		map.get("댄스").add(new Music("다 잘될거야", "쿨"));
 		
 		printMap(map);
 		
